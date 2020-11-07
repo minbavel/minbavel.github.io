@@ -1,4 +1,3 @@
-import { findByLabelText } from "@testing-library/react";
 import React from "react";
 import { useStyles } from "react-styles-hook";
 
@@ -13,8 +12,6 @@ function Header() {
         button: {
             flex: 1,
             backgroundColor: "transparent",
-            // marginRight:60,
-            // marginLeft:60,
             fontSize: 25,
             border: "none",
         },
