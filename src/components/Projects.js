@@ -45,19 +45,19 @@ function Projects() {
                 <span style={styles.projectTitle}>Project</span>
             </div>
             <div style={styles.imageAndProjectContainer}>
-                <img style={styles.image} src={sample} />
+                <img style={styles.image} alt="img1" src={sample} />
                 <span style={styles.projectFont}>
                     This Project 1 is about Bla Bla Bla
                 </span>
             </div>
             <div style={styles.imageAndProjectContainer}>
-                <img style={styles.image} src={sample} />
+                <img style={styles.image} alt="img2" src={sample} />
                 <span style={styles.projectFont}>
                     This Project 2 is about Bla Bla Bla
                 </span>
             </div>
             <div style={styles.imageAndProjectContainer}>
-                <img style={styles.image} src={sample} />
+                <img style={styles.image} alt="img1" src={sample} />
                 <span style={styles.projectFont}>
                     This Project 3 is about Bla Bla Bla
                 </span>
