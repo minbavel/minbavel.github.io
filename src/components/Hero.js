@@ -7,7 +7,7 @@ function Hero() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            height: 600,
+            height: 500,
             alignItems: "center",
         },
         name: {
