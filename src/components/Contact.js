@@ -4,6 +4,8 @@ import { useStyles } from "react-styles-hook";
 function Contact() {
     const styles = useStyles({
         contactContainer: {
+            backgroundColor: "#16171E",
+            height: 100,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -19,6 +21,7 @@ function Contact() {
         contactStyle: {
             flex: 1,
             fontSize: 20,
+            color: "white",
         },
 
         emailStyle: {
@@ -26,12 +29,14 @@ function Contact() {
             flex: 1,
             justifyContent: "center",
             fontSize: 20,
+            color: "white",
         },
         phoneStyle: {
             display: "flex",
             flex: 1,
             justifyContent: "center",
             fontSize: 20,
+            color: "white",
         },
     });
     return (

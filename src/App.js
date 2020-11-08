@@ -3,8 +3,9 @@ import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
-import Background from "./components/images/background1.jpg";
+import Background from "./components/images/background3.gif";
 import { useStyles } from "react-styles-hook";
+import Projecttest from "./components/Projecttest";
 
 function App() {
     const styles = useStyles({
@@ -23,7 +24,7 @@ function App() {
                 <Header />
                 <Hero />
             </div>
-            <Projects />
+            <Projecttest />
             <Contact />
         </div>
     );
