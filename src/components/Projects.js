@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { useStyles } from "react-styles-hook";
 import project1 from "./images/project1.png";
 import project2 from "./images/project2.JPG";
 import project3 from "./images/project3.JPG";
-import { Card, Button, CardDeck } from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 
 function Projecttest() {
     const styles = useStyles({
