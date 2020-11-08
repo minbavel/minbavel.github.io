@@ -35,7 +35,7 @@ function Contact() {
         },
     });
     return (
-        <div style={styles.contactContainer}>
+        <div id="contact" style={styles.contactContainer}>
             <span style={styles.contactStyle}>Contact</span>
             <div style={styles.contactContent}>
                 <div style={styles.emailStyle}>

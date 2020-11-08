@@ -1,5 +1,6 @@
 import React from "react";
 import { useStyles } from "react-styles-hook";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
     const styles = useStyles({
@@ -10,17 +11,27 @@ function Header() {
             alignItems: "center",
         },
         button: {
+            display: "flex",
             flex: 1,
+            justifyContent: "center",
             backgroundColor: "transparent",
-            fontSize: 25,
+            fontSize: "20px",
             border: "none",
+            color: "white",
+            textDecoration: "none",
         },
     });
     return (
         <div style={styles.buttonContainer}>
-            <button style={styles.button}>About</button>
-            <button style={styles.button}>Projects</button>
-            <button style={styles.button}>Contact</button>
+            <AnchorLink href="#about" style={styles.button}>
+                About
+            </AnchorLink>
+            <AnchorLink href="#project" style={styles.button}>
+                Projects
+            </AnchorLink>
+            <AnchorLink href="#contact" style={styles.button}>
+                Contact
+            </AnchorLink>
         </div>
     );
 }

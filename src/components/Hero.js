@@ -7,25 +7,28 @@ function Hero() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            height: 500,
+            height: 600,
             alignItems: "center",
         },
         name: {
             fontSize: 50,
-            color: "black",
+            color: "white",
         },
         subheading: {
-            fontSize: 30,
-            color: "black",
+            fontSize: "23px",
+            color: "white",
+            textAlign: "justify",
+            paddingLeft: 10,
+            paddingRight: 10,
         },
     });
     return (
-        <div style={styles.heroContainer}>
-            <span style={styles.name}>Hi! I Am Mohanavel</span>
-            <span style={styles.subheading}>
+        <div id="about" style={styles.heroContainer}>
+            <span style={styles.name}>Hi! I am Mohanavel</span>
+            <p style={styles.subheading}>
                 I am a Software Developer interested in Machine Learning, Data
                 Science and Web Design.
-            </span>
+            </p>
         </div>
     );
 }
