@@ -57,7 +57,7 @@ function Projecttest() {
             <CardDeck>
                 <Card style={styles.imageAndProjectContainer}>
                     <a href="https://github.com/minbavel/VGG_CIFAR100">
-                        <img style={styles.image} src={project1} />
+                        <img style={styles.image} src={project1} alt="image1" />
                     </a>
                     <Card.Body>
                         <Card.Title>
@@ -88,7 +88,7 @@ function Projecttest() {
             <CardDeck>
                 <Card style={styles.imageAndProjectContainer}>
                     <a href="https://github.com/minbavel/AI-Animal-Identification-System-using-CLIPS">
-                        <img style={styles.image} src={project2} />
+                        <img style={styles.image} src={project2} alt="image2" />
                     </a>
                     <Card.Body>
                         <Card.Title>
@@ -115,7 +115,7 @@ function Projecttest() {
             <CardDeck>
                 <Card style={styles.imageAndProjectContainer}>
                     <a href="https://github.com/minbavel/Machine-Learning-in-R-using-Decision-Tree">
-                        <img style={styles.image} src={project3} />
+                        <img style={styles.image} src={project3} alt="image3" />
                     </a>
                     <Card.Body>
                         <Card.Title>

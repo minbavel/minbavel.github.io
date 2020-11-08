@@ -13,8 +13,6 @@ function App() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-            // height: "100%",
-            // width: "100%",
         },
     });
     return (
