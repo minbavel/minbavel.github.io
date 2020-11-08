@@ -33,7 +33,7 @@ function Projects() {
             alignItems: "center",
         },
         projectContent: {
-            marginRight: 20,
+            //marginRight: 20,
             display: "flex",
             flexDirection: "column",
             alignContent: "flex-start",
