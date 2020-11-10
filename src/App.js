@@ -18,7 +18,10 @@ function App() {
     });
     return (
         <div>
-            <div style={styles.backgroundimage}>
+            <div
+                class="img-fluid max-width:100%"
+                style={styles.backgroundimage}
+            >
                 <Header />
                 <Hero />
             </div>
