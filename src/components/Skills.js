@@ -14,22 +14,24 @@ function Skills() {
         skillTitleContainer: {
             height: 100,
         },
+        skill: {
+            paddingBottom: 10,
+        },
         skillTitle: {
             fontSize: 30,
             color: "white",
         },
         skillContentHeading: {
-            marginBottom: 15,
             display: "flex",
             flex: 2,
             justifyContent: "flex-end",
-            fontSize: 17,
+            fontSize: 22,
             color: "white",
         },
         skillContentContent: {
             display: "flex",
             flex: 3,
-            fontSize: 17,
+            fontSize: 22,
             color: "white",
         },
     });
@@ -40,17 +42,17 @@ function Skills() {
             </div>
             <Container fluid>
                 {/* Skill 1 */}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         Programming Languages:
                     </Col>
                     <Col style={styles.skillContentContent}>
-                        Python, R , Java , C , C++ , Clojure , CLIPS,
-                        JavaScript, TypeScript
+                        Python, R, Java, C, C++, Clojure, CLIPS, JavaScript,
+                        TypeScript
                     </Col>
                 </Row>
                 {/* Skill 2*/}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         Machine Learning Tool:
                     </Col>
@@ -59,7 +61,7 @@ function Skills() {
                     </Col>
                 </Row>
                 {/* Skill 3 */}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         Front End Web Development:
                     </Col>
@@ -68,7 +70,7 @@ function Skills() {
                     </Col>
                 </Row>
                 {/* Skill 4 */}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         Mobile Development:
                     </Col>
@@ -77,7 +79,7 @@ function Skills() {
                     </Col>
                 </Row>
                 {/* Skill 5 */}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         CI/CD & Automation:
                     </Col>
@@ -86,7 +88,7 @@ function Skills() {
                     </Col>
                 </Row>
                 {/* Skill 6 */}
-                <Row className="d-flex flex-wrap">
+                <Row style={styles.skill} className="d-flex flex-wrap">
                     <Col style={styles.skillContentHeading}>
                         Cloud Techonologies:
                     </Col>

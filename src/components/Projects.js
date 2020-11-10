@@ -24,28 +24,26 @@ function Projecttest() {
 
         imageAndProjectContainer: {
             display: "flex",
-            // flexDirection: "column",
-            // marginLeft: "10em",
-            // marginRight: "10rem",
             marginBottom: "2rem",
         },
-        projectContent: {},
+        imageContainer: {
+            display: "flex",
+            justifyContent: "Center",
+        },
         image: {
-            marginLeft: "5em",
             // marginRight: "10rem",
             borderRadius: 20,
-            height: 150,
-            width: 150,
-            backgroundColor: "yellow",
+            height: 180,
+            width: 180,
         },
         projectFontHeading: {
-            fontSize: 18,
+            fontSize: 23,
             color: "#bdc3c7",
             marginBottom: 10,
             textDecoration: "none",
         },
         projectFont: {
-            fontSize: 14,
+            fontSize: 19,
             color: "white",
         },
     });
@@ -60,7 +58,14 @@ function Projecttest() {
                     style={styles.imageAndProjectContainer}
                     className="d-flex flex-wrap"
                 >
-                    <Col xl={3} lg={3} md={4} sm={12} xs={12}>
+                    <Col
+                        style={styles.imageContainer}
+                        xl={3}
+                        lg={3}
+                        md={5}
+                        sm={12}
+                        xs={12}
+                    >
                         <a href="https://github.com/minbavel/VGG_CIFAR100">
                             <img
                                 style={styles.image}
@@ -69,7 +74,7 @@ function Projecttest() {
                             />
                         </a>
                     </Col>
-                    <Col xl={9} lg={9} md={8} sm={12} xs={12}>
+                    <Col xl={9} lg={9} md={7} sm={12} xs={12}>
                         <a
                             style={styles.projectFontHeading}
                             href="https://github.com/minbavel/VGG_CIFAR100"
@@ -96,7 +101,14 @@ function Projecttest() {
                     style={styles.imageAndProjectContainer}
                     className="d-flex flex-wrap"
                 >
-                    <Col xl={3} lg={3} md={4} sm={12} xs={12}>
+                    <Col
+                        style={styles.imageContainer}
+                        xl={3}
+                        lg={3}
+                        md={5}
+                        sm={12}
+                        xs={12}
+                    >
                         <a href="https://github.com/minbavel/AI-Animal-Identification-System-using-CLIPS">
                             <img
                                 style={styles.image}
@@ -105,7 +117,7 @@ function Projecttest() {
                             />
                         </a>
                     </Col>
-                    <Col xl={9} lg={9} md={8} sm={12} xs={12}>
+                    <Col xl={9} lg={9} md={7} sm={12} xs={12}>
                         <a
                             style={styles.projectFontHeading}
                             href="https://github.com/minbavel/AI-Animal-Identification-System-using-CLIPS"
@@ -126,7 +138,14 @@ function Projecttest() {
                     style={styles.imageAndProjectContainer}
                     className="d-flex flex-wrap"
                 >
-                    <Col xl={3} lg={3} md={4} sm={12} xs={12}>
+                    <Col
+                        style={styles.imageContainer}
+                        xl={3}
+                        lg={3}
+                        md={5}
+                        sm={12}
+                        xs={12}
+                    >
                         <a href="https://github.com/minbavel/Machine-Learning-in-R-using-Decision-Tree">
                             <img
                                 style={styles.image}
@@ -135,7 +154,7 @@ function Projecttest() {
                             />
                         </a>
                     </Col>
-                    <Col xl={9} lg={9} md={8} sm={12} xs={12}>
+                    <Col xl={9} lg={9} md={7} sm={12} xs={12}>
                         <a
                             href="https://github.com/minbavel/Machine-Learning-in-R-using-Decision-Tree"
                             style={styles.projectFontHeading}

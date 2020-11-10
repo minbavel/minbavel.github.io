@@ -27,7 +27,7 @@ function Contact() {
         contactStyleDefine: {
             marginBottom: "1rem",
             flex: 1,
-            fontSize: 18,
+            fontSize: 21,
             color: "white",
         },
 
@@ -35,14 +35,14 @@ function Contact() {
             display: "flex",
             flex: 1,
             justifyContent: "center",
-            fontSize: 17,
+            fontSize: 20,
             color: "#bdc3c7",
         },
         contactAlsoStyle: {
             display: "flex",
             flex: 1,
             justifyContent: "center",
-            fontSize: 17,
+            fontSize: 20,
             color: "#bdc3c7",
             textDecoration: "none",
         },
