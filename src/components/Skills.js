@@ -47,8 +47,8 @@ function Skills() {
                         Programming Languages:
                     </Col>
                     <Col style={styles.skillContentContent}>
-                        Python, R, Java, C, C++, Clojure, CLIPS, JavaScript,
-                        TypeScript
+                        Python, R, Java, C, C++, JavaScript, TypeScript, UI
+                        Path, Clojure, CLIPS, Mozart OZ, SWI-Prolog
                     </Col>
                 </Row>
                 {/* Skill 2*/}
@@ -66,7 +66,7 @@ function Skills() {
                         Front End Web Development:
                     </Col>
                     <Col style={styles.skillContentContent}>
-                        React, Vue, Angular
+                        React, Vue, Angular, Bootstrap
                     </Col>
                 </Row>
                 {/* Skill 4 */}
@@ -75,7 +75,7 @@ function Skills() {
                         Mobile Development:
                     </Col>
                     <Col style={styles.skillContentContent}>
-                        React Native, Firebase
+                        React Native, Firebase, Android Studio, Unity
                     </Col>
                 </Row>
                 {/* Skill 5 */}
@@ -95,6 +95,11 @@ function Skills() {
                     <Col style={styles.skillContentContent}>
                         AWS EC2, Google Cloud , IBM Cloud , Compute Canada Cloud
                     </Col>
+                </Row>
+                {/* Skill 7 */}
+                <Row style={styles.skill} className="d-flex flex-wrap">
+                    <Col style={styles.skillContentHeading}>DataBase:</Col>
+                    <Col style={styles.skillContentContent}>MySQL, MongoDB</Col>
                 </Row>
             </Container>
         </div>
