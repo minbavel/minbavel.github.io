@@ -7,8 +7,10 @@ function Hero() {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            height: 500,
+
             alignItems: "center",
+            minHeight: "85vh",
+            //backgroundColor: "blue",
         },
         name: {
             fontSize: 50,

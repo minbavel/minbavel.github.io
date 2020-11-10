@@ -21,7 +21,7 @@ function Contact() {
             marginTop: 50,
             marginBottom: "3rem",
             flex: 1,
-            fontSize: 20,
+            fontSize: 30,
             color: "white",
         },
         contactStyleDefine: {

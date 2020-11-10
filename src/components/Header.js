@@ -17,8 +17,13 @@ function Header() {
             backgroundColor: "transparent",
             fontSize: "20px",
             border: "none",
-            color: "white",
             textDecoration: "none",
+            color: "white",
+        },
+        buttonHover: {
+            border: "none",
+            textDecoration: "none",
+            color: "red",
         },
     });
     return (
@@ -28,6 +33,9 @@ function Header() {
             </AnchorLink>
             <AnchorLink href="#project" style={styles.button}>
                 Projects
+            </AnchorLink>
+            <AnchorLink href="#skills" style={styles.button}>
+                Skills
             </AnchorLink>
             <AnchorLink href="#contact" style={styles.button}>
                 Contact
