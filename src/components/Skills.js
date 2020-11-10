@@ -48,7 +48,7 @@ function Skills() {
                     </Col>
                     <Col style={styles.skillContentContent}>
                         Python, R, Java, C, C++, JavaScript, TypeScript, UI
-                        Path, Clojure, CLIPS, Mozart OZ, SWI-Prolog
+                        Path, Clojure, CLIPS, Mozart OZ
                     </Col>
                 </Row>
                 {/* Skill 2*/}
